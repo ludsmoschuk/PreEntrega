@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat-Medium;
+}
+
+@font-face {
+    font-family: Montserrat-Medium ;
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
+
+}
+
+.logo {
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.navbar{
+    padding: 10px;
+    background-color: #F2EDDB;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar > ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    font-family: Montserrat-Medium, 'Times New Roman', Times, srif;
+}
+
+.navbar > ul > li {
+    position: relative;
+}
+
+.navbar > ul > li:hover ul {
+    max-height: 1000px;
+    transition: 0.9s;
+}
+
+.navbar  ul  li  a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+.navbar > ul > li > ul {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    list-style-type: none;
+    background-color: #F2EDDB;
+    left: 13px;
+
+}
+
+.navbar > ul > li > ul > li > a {
+    font-size: 16px;
+    padding: 15px;
+}
+    
+.imgslider > img {
+    width: 100%;
+}
+
+h1{
+    margin: 35px;
+    margin-top: 50px;
+    font-family: Montserrat-Medium;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 180px;
+    margin: 10px;
+}
+
+.card > img {
+    width: 190px;
+    padding-bottom: 15px;
+}
+
+.card-info > h2{
+    text-align: c;
+    padding: 8px;
+}
+
+.card-info > h4{
+    padding-left: 8px;
+    padding-bottom: 8px;
+    color: rgb(75, 73, 73);
+    font-size: 12px;
+}
+
+.tittleproduct {
+    font-size: 16px;
+    font-family: Montserrat-Medium;
+}
+.price{
+    font-size: 14px;
+    font-family: Montserrat-Medium;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color:#D8CCBF;
+    font-size: 13px;
+    padding: 7px;
+    font-family: Montserrat-Medium;
+}
+
+.asideindex{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+
+.asideindex > div {
+    display: flex;
+}
+
+.asideindex > div > h4 { 
+    font-size: 14px;
+    margin-top: 35px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.asideindex > div > img { 
+    height: 100px;
+}
+
+.foot{
+    background-color: #D8CCBF;
+}
+
+.foot > h3 {
+    padding: 35px;
+    text-align: center;
+}
+
+.foot img{
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.redes{
+    display: flex;  
+    justify-content: center; 
+}
+
+.redes > a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+p{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 15px;
+}
+
+.cuidados > ul{
+    padding-left: 120px;
+    padding-top: 10px;
+}
+.cuidados h3{
+    padding-left: 80px;
+    font-size: 16px;
+}
+
+.cuidados h2{
+    margin: 40px;
+    margin-top: 50px;
+    font-family: Montserrat-Medium;
+    font-size: 28px;
+}
+
+form{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.map{
+    margin-left: 80px;
+}
+
+.cats{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.cat{
+    width: 300px;
+    position: relative;
+}
+
+.cat img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.cat h2{
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    text-align: center;
+    color: white;
+}
