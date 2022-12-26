@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kimeki Accesorios</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="shortcut icon" href="./assets/img/header/logofavicon.png" type="image/x-icon">
 </head>
@@ -38,7 +39,7 @@
             <img src="./assets/img/header/kimekiHeader.png" alt="accesoriosslider">
         </div>
     </header>
-        <main>
+    <main>
         <h1>Productos Destacados</h1>
         <section class="cards">
             <div class="card">
@@ -176,16 +177,15 @@
                     <button class="btn">Ver Mas...</button>
                 </div>    
             </div>
-        </section>
     </main>
     <aside>
       <section class="asideindex">
         <div>
-            <img src="./assets/img/header/cash.png" alt="cash">
+            <img src="./assets/img/header/cash.png" alt="cash" data-aos="flip-left" data-aos-duration="7000">
             <h4>Abona en efectivo o transferencia</h4>
         </div>
-      <div>
-        <img src="./assets/img/header/truck.png" alt="truck">
+      <div >
+        <img src="./assets/img/header/truck.png" alt="truck" data-aos="fade-right" data-aos-duration="7000">
         <h4>Envios Low Cost Fast</h4>
       </div>
       </section> 
@@ -202,5 +202,9 @@
             <br><br>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

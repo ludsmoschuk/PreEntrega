@@ -133,7 +133,7 @@ h1{
 
 .asideindex{
     display: flex;
-    padding: 80px;
+    padding-top: 60px;
     justify-content: center;
 }
 
@@ -152,6 +152,9 @@ h1{
     height: 100px;
 }
 
+footer{
+    margin-top: 60px;
+}
 .foot{
     background-color: #D8CCBF;
 }
