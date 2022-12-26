@@ -147,7 +147,7 @@ h1{
 }
 
 .foot > h3 {
-    padding: 35px;
+    padding: 35px ; 
     text-align: center;
 }
 
@@ -211,7 +211,7 @@ form{
 }
 
 .cat img{
-    width: 300px;
+    width: px;
     border-radius: 15px;
 }
 
