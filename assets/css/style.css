@@ -17,6 +17,10 @@
     border-radius: 50%;
 }
 
+.navbar > .fa-bars {
+    display: none;
+}
+
 .navbar{
     padding: 10px;
     background-color: #F2EDDB;
@@ -64,9 +68,62 @@
     font-size: 16px;
     padding: 15px;
 }
+
+@media(max-width: 800px){
+     .navbar > .fa-bars {
+        display: block;
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .navbar > ul{
+        position: fixed;
+        flex-direction: column;
+        background-color: #F2EDDB;
+        width: 250px;
+        height: 100vh;
+        justify-content: start;
+        margin: -10px;
+        padding-top: 45px;
+        padding-left: 10px;
+        left: -300px;
+        -webkit-box-shadow: 3px 0px 33px 5px rgba(0,0,0,0.8); 
+        box-shadow: 3px 0px 33px 5px rgba(0,0,0,0.8);    
+    }
+
+    .navbar > .fa-bars:hover  ul {
+        left: 0px;
+    }
     
+    .navbar > ul:hover{
+        left: 0;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .cards{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        justify-content: center;
+        column-gap: 25px;
+        row-gap: 35px;
+    }
+
+    .card{
+        width: 20px;
+        margin: 10px;
+        -webkit-box-shadow: 0px 0px 6px -2px #000000; 
+        box-shadow: 0px 0px 6px -2px #000000;    
+    }
+}
+
+
+
 .imgslider > img {
-    width: 100%;
+    width: 100vw;
 }
 
 h1{
