@@ -4,103 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../assets/img/header/logofavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link class="logofavicon" rel="shortcut icon" href="../assets/img/header/logofavicon.png" type="image/x-icon">
+    <title>Productos</title>
 </head>
 <body>
-    <nav class="navbar">
-        <img class="logo ms-3" src="../assets/img/header/logofavicon.png" alt="logo">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a href="./cuidados.html">Cuidados</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./ubicacion.html">Ubicación</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1 class="pt-5 pb-3">Categorías</h1>
-    </header>
-    <main>
-        <section class="cats row m-2 justify-content-center">
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/abridores.jpg" alt="Abridores">
-                    <h2>Abridores</h2>
-                </a>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <img class="logonav" src="../assets/img/header/logodesktop.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img class="logonav" src="../assets/img/header/logofavicon.png" alt="">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="./argollas.html">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/argollas.jpg" alt="Argollas">
-                    <h2>Argollas</h2>
-                </a>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./assets/pages/productos.html">Productos</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./cuidados.html">Cuidados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./ubicacion.html">Ubicación</a>
+              </ul>
             </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/anillos.jpg" alt="Anillos">
-                    <h2>Anillos</h2>
-                </a>
-            </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/cadena.jpg" alt="Cadenas">
-                    <h2>Cadenas</h2>
-                </a>
-            </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/cuff.jpg" alt="Cuff">
-                    <h2>Cuff</h2>
-                </a>
-            </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/dije.jpg" alt="Dijes">
-                    <h2>Dijes</h2>
-                </a>
-            </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/pulsera.jpg" alt="Pulseras">
-                    <h2>Pulseras</h2>
-                </a>
-            </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/piercing.jpg" alt="Piercings">
-                    <h2>Piercings</h2>
-                </a>
-            </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/tobillera.jpg" alt="Tobilleras">
-                    <h2>Tobilleras</h2>
-                </a>
-            </div>
-            <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
-                <a href="">
-                    <img class="img-fluid mb-3" src="../assets/img/categorias/otros.jpg" alt="Otros">
-                    <h2>Otros</h2>
-                </a>
-            </div>
+          </div>
         </div>
-        </section>
+      </nav>
+
+    <header>
+        <h1>Categorías</h1>
+    </header>
+
+    <main>
+
     </main>
-    <br><br>
+    <section class="cats row m-2 justify-content-center">
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/abridores.jpg" alt="Abridores">
+                <h2>Abridores</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="./argollas.html">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/argollas.jpg" alt="Argollas">
+                <h2>Argollas</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/anillos.jpg" alt="Anillos">
+                <h2>Anillos</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/cadena.jpg" alt="Cadenas">
+                <h2>Cadenas</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/cuff.jpg" alt="Cuff">
+                <h2>Cuff</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/dije.jpg" alt="Dijes">
+                <h2>Dijes</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/pulsera.jpg" alt="Pulseras">
+                <h2>Pulseras</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/piercing.jpg" alt="Piercings">
+                <h2>Piercings</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/tobillera.jpg" alt="Tobilleras">
+                <h2>Tobilleras</h2>
+            </a>
+        </div>
+        <div class="cat col-6 col-sm-4 col-xl-3 col-xxl-3">
+            <a href="">
+                <img class="img-fluid mb-3" src="../assets/img/categorias/otros.jpg" alt="Otros">
+                <h2>Otros</h2>
+            </a>
+        </div>
+    </section>
+
     <footer>
         <div class="foot">
             <h3>Seguinos en nuestras redes!</h3>
             <div class="redes">
-                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y="> <img src="../assets/img/header/instagram.png" alt=""></a> 
-                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y="> <h3>@kimeki.accesorios</h3></a>
-                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/"> <img src="../assets/img/header/facebook.png" alt=""></a>
-                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/"> <h3>Kimeki Acero</h3></a>
+                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y=" target="_blank"> <img src="../assets/img/header/instagram.png" alt=""></a> 
+                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y=" target="_blank"> <h4>@kimeki.accesorios</h4></a>
+                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/" target="_blank"> <img src="../assets/img/header/facebook.png" alt=""></a>
+                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/" target="_blank"> <h4>Kimeki Acero</h4></a>
             </div>
             <br><br>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>

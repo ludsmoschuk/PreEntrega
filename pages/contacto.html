@@ -4,63 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../assets/img/header/logofavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link class="logofavicon" rel="shortcut icon" href="../assets/img/header/logofavicon.png" type="image/x-icon">
+    <title>Contacto</title>
 </head>
 <body>
-    <nav class="navbar">
-        <img class="logo ms-3" src="../assets/img/header/logofavicon.png" alt="logo">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/productos.html">Productos</a>
-                <ul>
-                    <li><a href="">Abridores</a></li>
-                    <li><a href="./argollas.html">Argollas</a></li>
-                    <li><a href="">Anillos</a></li>
-                    <li><a href="">Cuff</a></li>
-                    <li><a href="">Cadenas</a></li>
-                     <li><a href="">Dijes</a></li>
-                    <li><a href="">Pulseras</a></li>
-                    <li><a href="">Piercings</a></li>
-                    <li><a href="">Tobilleras</a></li>
-                    <li><a href="">Otros</a></li>
-                </ul>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <img class="logonav" src="../assets/img/header/logodesktop.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img class="logonav" src="../assets/img/header/logofavicon.png" alt="">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                 </li>
-            <li><a href="./cuidados.html">Cuidados</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./ubicacion.html">Ubicación</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1 class="pt-5 pb-3">Contacto</h1>
-        <div class="row">
-            <p class="ms-5 col-6">Nos podes contactar a través de nuestras redes sociales, Instagram y Facebook. También vía WhatsApp y Gmail. O dejá tu consulta acá abajo.</p>
-        
-            <form class="row ms-5 col-7" action="">
-                <input class=" m-2 col-3" type="text" name="nombre" placeholder="Nombre">
-                <br><br>
-                <input class=" m-2 col-3" type="email" name="email" placeholder="Email">
-                <br><br>
-                <textarea class=" m-2 col-7" name="mensaje" placeholder="Mensaje"></textarea>
-                <br><br>
-                <input class=" m-2 col-7" type="submit" value="Enviar">
-            </form>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./assets/pages/productos.html">Productos</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./cuidados.html">Cuidados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./ubicacion.html">Ubicación</a>
+              </ul>
+            </div>
+          </div>
         </div>
+      </nav>
+
+    <header>
+        <h1> Contacto</h1>
+        <p>Nos podes contactar a través de nuestras redes sociales, Instagram y Facebook. También vía WhatsApp y Gmail. O dejá tu consulta acá abajo.</p>
     </header>
+    
+    <main>
+      <form action="">
+          <input type="text" name="nombre" placeholder="Nombre">
+          <input type="email" name="email" placeholder="Email">
+          <input type="number" name="telefono" placeholder="Teléfono">
+          <textarea name="mensaje" placeholder="Mensaje/Consulta"></textarea>
+          <input type="submit" value="Enviar">
+      </form>
+    </main>
+
+
     <footer>
         <div class="foot">
             <h3>Seguinos en nuestras redes!</h3>
             <div class="redes">
-                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y="> <img src="../assets/img/header/instagram.png" alt=""></a> 
-                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y="> <h3>@kimeki.accesorios</h3></a>
-                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/"> <img src="../assets/img/header/facebook.png" alt=""></a>
-                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/"> <h3>Kimeki Acero</h3></a>
+                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y=" target="_blank"> <img src="../assets/img/header/instagram.png" alt=""></a> 
+                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y=" target="_blank"> <h4>@kimeki.accesorios</h4></a>
+                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/" target="_blank"> <img src="../assets/img/header/facebook.png" alt=""></a>
+                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/" target="_blank"> <h4>Kimeki Acero</h4></a>
             </div>
             <br><br>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>

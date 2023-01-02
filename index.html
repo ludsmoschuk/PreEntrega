@@ -4,209 +4,219 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kimeki Accesorios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/img/header/logofavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link class="logofavicon" rel="shortcut icon" href="./assets/img/header/logofavicon.png" type="image/x-icon">
+    <title>Kimeki Accesorios</title>
 </head>
 <body class="bodyindex">
-    <nav class="navbar">
-        <i class="fa-solid fa-bars"></i>
-        <img class="logo" src="./assets/img/header/logofavicon.png" alt="logo">
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/productos.html">Productos</a>
-                <ul>
-                    <li><a href="">Abridores</a></li>
-                    <li><a href="./pages/argollas.html">Argollas</a></li>
-                    <li><a href="">Anillos</a></li>
-                    <li><a href="">Cuff</a></li>
-                    <li><a href="">Cadenas</a></li>
-                     <li><a href="">Dijes</a></li>
-                    <li><a href="">Pulseras</a></li>
-                    <li><a href="">Piercings</a></li>
-                    <li><a href="">Tobilleras</a></li>
-                    <li><a href="">Otros</a></li>
-                </ul>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <img class="logonav" src="./assets/img/header/logodesktop.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img class="logonav" src="./assets/img/header/logofavicon.png" alt="">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                 </li>
-            <li><a href="./pages/cuidados.html">Cuidados</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-            <li><a href="./pages/ubicacion.html">Ubicación</a></li>
-        </ul>
-    </nav>
-    <br>
-    <header>
-        <div class="imgslider">
-            <img src="./assets/img/header/kimekiHeader.png" alt="accesoriosslider">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/cuidados.html">Cuidados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/ubicacion.html">Ubicación</a>
+              </ul>
+            </div>
+          </div>
         </div>
-    </header>
-    <main>
-        <h1>Productos Destacados</h1>
-        <section class="cards row">
-            <div class="card">
-                <img src="./assets/img/dijes/blanco/dijeStarfishBlanco.jpg" alt="Dije Starfish">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Dije Starfish</h2>
-                    <h4>Acero Blanco</h4>
-                    <h2 class="price">$500</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/argollas/quirurgico/argollasAlitasQuirurgico.jpg" alt="Argollas Wings">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Argollas Wings</h2>
-                    <h4>Acero Quirúrgico</h4>
-                    <h2 class="price">$550</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/otros/alianzas.jpg" alt="Alianzas">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Alianzas</h2>
-                    <h4>Acero Quirúrgico</h4>
-                    <h2 class="price">$900</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/anillos/Blanco/anilloDoubleBlanco.jpg" alt="Anillo Double">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Anillo Double</h2>
-                    <h4>Acero Blanco</h4>
-                    <h2 class="price">$550</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/cadenas/quirurgico/cadenaWingsAQ.jpg" alt="Cadena Wings">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Cadena Wings</h2>
-                    <h4>Acero Quirúrgico</h4>
-                    <h2 class="price">$850</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/otros/pañoMagico.jpg" alt="Paño Mágico">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Paño Mágico</h2>
-                    <h4>Otros</h4>
-                    <h2 class="price">$280</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/argollas/blanco/argollasStarGlow.jpg" alt="Argollas Star Glow">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Argollas Star Glow</h2>
-                    <h4>Acero Quirúrgico</h4>
-                    <h2 class="price">$1200</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/cadenas/quirurgico/cadenaHeartP-AQ.jpg" alt="Cadena Heart P">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Cadena Heart P</h2>
-                    <h4>Acero Quirúrgico</h4>
-                    <h2 class="price">$800</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/argollas/quirurgico/argollasNacar.jpg" alt="Argollas Nácar">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Argollas Nácar</h2>
-                    <h4>Acero Quirúrgico</h4>
-                    <h2 class="price">$990</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/otros/cajaCadenas.jpg" alt="Estuche">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Estuche</h2>
-                    <h4>Otros</h4>
-                    <h2 class="price">$250</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/argollas/dorado/argollasPlanet.jpg" alt="Argollas Planet">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Argollas Planet</h2>
-                    <h4>Acero Dorado</h4>
-                    <h2 class="price">$700</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/pulseras/blanco/pulsera wings.jpg" alt="Pulsera Wings">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Pulsera Wings</h2>
-                    <h4>Acero Blanco</h4>
-                    <h2 class="price">$990</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/cadenas/blanco/cadenaHeartSilver.jpg" alt="Cadena Heart Silver">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Cadena Heart Silver</h2>
-                    <h4>Acero Blanco</h4>
-                    <h2 class="price">$1400</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/otros/collarPerlas.jpg" alt="Collas de Perlas">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Collar de Perlas</h2>
-                    <h4>Otros </h4>
-                    <h2 class="price">$650</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-            <div class="card">
-                <img src="./assets/img/piercings/piercingOmbligoTornasol.jpg" alt="piercings Ombligo Tornasol">
-                <div class="card-info">
-                    <h2 class="tittleproduct">Piercing Tornasol</h2>
-                    <h4>Acero Quirúrgico</h4>
-                    <h2 class="price">$500</h2>
-                    <button class="btn">Ver Mas...</button>
-                </div>    
-            </div>
-    </main>
-    <aside class="asideindex">
-      <section class="cashandtruck">
-        <div>
-            <img src="./assets/img/header/cash.png" alt="cash" data-aos="flip-left" data-aos-duration="7000">
-            <h4>Abona en efectivo o transferencia</h4>
+      </nav>
+
+      <header>
+          <img class="imgheader" src="./assets/img/header/kimekiHeader.png" alt="">
+      </header>
+
+      <main>
+        <h1 class="h1index">Productos Destacados</h1>
+        <section class="cards">
+          <div class="card">
+            <img src="./assets/img/dijes/blanco/dijeStarfishBlanco.jpg" alt="Dije Starfish">
+            <div class="card-info">
+                <h2 class="tittleproduct">Dije Starfish</h2>
+                <h4>Acero Blanco</h4>
+                <h2 class="price">$500</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
         </div>
-      <div >
-        <img src="./assets/img/header/truck.png" alt="truck" data-aos="fade-right" data-aos-duration="7000">
-        <h4>Envios Low Cost Fast</h4>
-      </div>
-      </section> 
-    </aside>
-    <footer>
+        <div class="card">
+            <img src="./assets/img/argollas/quirurgico/argollasAlitasQuirurgico.jpg" alt="Argollas Wings">
+            <div class="card-info">
+                <h2 class="tittleproduct">Argollas Wings</h2>
+                <h4>Acero Quirúrgico</h4>
+                <h2 class="price">$550</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/otros/alianzas.jpg" alt="Alianzas">
+            <div class="card-info">
+                <h2 class="tittleproduct">Alianzas</h2>
+                <h4>Acero Quirúrgico</h4>
+                <h2 class="price">$900</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/anillos/Blanco/anilloDoubleBlanco.jpg" alt="Anillo Double">
+            <div class="card-info">
+                <h2 class="tittleproduct">Anillo Double</h2>
+                <h4>Acero Blanco</h4>
+                <h2 class="price">$550</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/cadenas/quirurgico/cadenaWingsAQ.jpg" alt="Cadena Wings">
+            <div class="card-info">
+                <h2 class="tittleproduct">Cadena Wings</h2>
+                <h4>Acero Quirúrgico</h4>
+                <h2 class="price">$850</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/otros/pañoMagico.jpg" alt="Paño Mágico">
+            <div class="card-info">
+                <h2 class="tittleproduct">Paño Mágico</h2>
+                <h4>Otros</h4>
+                <h2 class="price">$280</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/argollas/blanco/argollasStarGlow.jpg" alt="Argollas Star Glow">
+            <div class="card-info">
+                <h2 class="tittleproduct">Argollas Star Glow</h2>
+                <h4>Acero Quirúrgico</h4>
+                <h2 class="price">$1200</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/cadenas/quirurgico/cadenaHeartP-AQ.jpg" alt="Cadena Heart P">
+            <div class="card-info">
+                <h2 class="tittleproduct">Cadena Heart P</h2>
+                <h4>Acero Quirúrgico</h4>
+                <h2 class="price">$800</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/argollas/quirurgico/argollasNacar.jpg" alt="Argollas Nácar">
+            <div class="card-info">
+                <h2 class="tittleproduct">Argollas Nácar</h2>
+                <h4>Acero Quirúrgico</h4>
+                <h2 class="price">$990</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/otros/cajaCadenas.jpg" alt="Estuche">
+            <div class="card-info">
+                <h2 class="tittleproduct">Estuche</h2>
+                <h4>Otros</h4>
+                <h2 class="price">$250</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/argollas/dorado/argollasPlanet.jpg" alt="Argollas Planet">
+            <div class="card-info">
+                <h2 class="tittleproduct">Argollas Planet</h2>
+                <h4>Acero Dorado</h4>
+                <h2 class="price">$700</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/pulseras/blanco/pulsera wings.jpg" alt="Pulsera Wings">
+            <div class="card-info">
+                <h2 class="tittleproduct">Pulsera Wings</h2>
+                <h4>Acero Blanco</h4>
+                <h2 class="price">$990</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/cadenas/blanco/cadenaHeartSilver.jpg" alt="Cadena Heart Silver">
+            <div class="card-info">
+                <h2 class="tittleproduct">Cadena Heart Silver</h2>
+                <h4>Acero Blanco</h4>
+                <h2 class="price">$1400</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/otros/collarPerlas.jpg" alt="Collas de Perlas">
+            <div class="card-info">
+                <h2 class="tittleproduct">Collar de Perlas</h2>
+                <h4>Otros </h4>
+                <h2 class="price">$650</h2>
+                <button class="btn">Ver Mas...</button>
+            </div>    
+        </div>
+        <div class="card">
+            <img src="./assets/img/piercings/piercingOmbligoTornasol.jpg" alt="piercings Ombligo Tornasol">
+            <div class="card-info">
+                <h2 class="tittleproduct">Piercing Tornasol</h2>
+                <h4>Acero Quirúrgico</h4>
+                <h2 class="price">$500</h2>
+                <button class="btn">Ver Mas...</button>
+        </section>
+      </main>
+
+      <aside class="asideindex">
+        <section class="cashandtruck">
+          <div>
+              <img src="./assets/img/header/cash.png" alt="cash" data-aos="flip-left" data-aos-duration="7000">
+              <h4>Abona en efectivo o transferencia</h4>
+          </div>
+        <div >
+          <img src="./assets/img/header/truck.png" alt="truck" data-aos="fade-right" data-aos-duration="7000">
+          <h4>Envios Low Cost Fast</h4>
+        </div>
+        </section> 
+      </aside>
+
+      <footer>
         <div class="foot">
             <h3>Seguinos en nuestras redes!</h3>
             <div class="redes">
-                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y="> <img src="./assets/img/header/instagram.png" alt=""></a> 
-                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y="> <h3>@kimeki.accesorios</h3></a>
-                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/"> <img src="./assets/img/header/facebook.png" alt=""></a>
-                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/"> <h3>Kimeki Acero</h3></a>
+                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y=" target="_blank"> <img src="./assets/img/header/instagram.png" alt=""></a> 
+                <a href="https://instagram.com/kimeki.accesorios?igshid=YmMyMTA2M2Y=" target="_blank"> <h4>@kimeki.accesorios</h4></a>
+                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/" target="_blank"> <img src="./assets/img/header/facebook.png" alt=""></a>
+                <a href="https://m.facebook.com/people/Kime-Ki/100077237084897/" target="_blank"> <h4>Kimeki Acero</h4></a>
             </div>
             <br><br>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+
 </body>
 </html>
