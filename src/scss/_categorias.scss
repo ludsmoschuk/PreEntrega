@@ -1,0 +1,21 @@
+
+.cats{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.cat{
+    width: 300px;
+    position: relative;
+    img{
+        width: px;
+        border-radius: 15px;
+    }
+    h2{
+        position: absolute;
+        width: 100%;
+        bottom: 40%;
+        text-align: center;
+        color: white;
+    }
+}

@@ -1,0 +1,14 @@
+@media(max-width:900px){
+    .imgheader{
+        display: none;
+    }
+    .imgheadermobile{
+        display: block;
+    }
+}
+
+@media (min-width:900px){
+    .imgheadermobile{
+        display: none;
+    }
+}
