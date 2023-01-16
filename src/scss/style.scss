@@ -21,9 +21,13 @@
 @import "ubicacion";
 @import "footer";
 @import "media";
+@import "extendandmixin";
 
-.body{
-    background-color: #F2EDDB;
+$firstcolor: #F2EDDB;
+$secondcolor: #D8CCBF;
+
+title{
+    display: none;
 }
 
 h1{
@@ -42,3 +46,4 @@ p{
     padding-right: 10px;
     font-size: 15px;
 }
+

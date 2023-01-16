@@ -1,0 +1,25 @@
+%buttomvermas{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 125px;
+    border: none;
+    border-radius: 5px;
+    background-color: $secondcolor;
+    font-size: 13px;
+    padding: 7px;
+    font-family: Montserrat-Medium;
+}
+
+
+@mixin buttom($marginleft, $fontsize){
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: $marginleft;
+    border: none;
+    border-radius: 5px;
+    background-color: $secondcolor;
+    font-size: $fontsize;
+    padding: 7px;
+    font-family: Montserrat-Medium;
+}
+    
