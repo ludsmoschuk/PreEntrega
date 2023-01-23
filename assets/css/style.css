@@ -45,8 +45,8 @@ footer {
   border-radius: 5px;
 }
 
-.imgheader, .imgheadermobile {
-  width: 100vw;
+.imgmobile {
+  width: 100% !important; 
 }
 
 .cards {
@@ -162,10 +162,24 @@ form > input, form textarea {
 }
 
 .map {
-  margin-left: 7%;
-  margin-bottom: 60px;
+ margin-left: 60px;
+ margin-bottom: 60px;
 }
-
+.mapmobile{
+  margin-left: 45px;
+  margin-bottom: 50px;
+}
+.mainubi{
+  display: flex;
+}
+.pubi{
+  width: 45%;
+}
+.wpp{
+  text-decoration: none;
+  color: black;
+  margin-left: 80px;
+}
 .foot {
   background-color: #D8CCBF;
 }
@@ -196,16 +210,11 @@ form > input, form textarea {
 }
 
 @media (max-width: 900px) {
-  .imgheader {
-    display: none;
-  }
-  .imgheadermobile {
+  .imgmobile{
     display: block;
   }
-  h1, .h1index {
-    margin: 40px;
-    margin-top: 130px;
-    font-size: 20px;
+  .sliderdesktop{
+    display: none;
   }
   .card {
     width: 160px;
@@ -242,10 +251,56 @@ form > input, form textarea {
     padding: 7px;
     font-family: Montserrat-Medium;
   }
+  form{
+    width: 75%;
+  }
+  .parrafo{
+    margin-left: 10px;
+    padding-left: 45px;
+    padding-right: 25px;
+  }
+  .cuidados > h3{
+    padding-left: 55px;
+  }
+  .cuidados > ul{
+    padding-left: 85px;
+    padding-right: 25px;
+  }
+  .mapmobile{
+    display: block;
+    width: 80%;
+  }
+  .map{
+    display: none;
+  }
+  .pubi{
+    display: none;
+  }
 }
 @media (min-width: 900px) {
-  .imgheadermobile {
+  .imgmobile{
     display: none;
+  }
+  .mapmobile{
+    display: none;
+  }
+}
+@media(max-width:1050px){
+  .cashandtruck{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+  }
+  form{
+    width: 60%;
+  }
+}
+@media(max-width:650px){
+  .redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .body {
@@ -268,3 +323,19 @@ p {
   padding-right: 10px;
   font-size: 15px;
 }
+
+
+.foot{
+  background-color: #D8CCBF;
+}
+
+.redes{
+  display: flex;
+  padding-bottom: 45px;
+}
+
+.redes h5{
+  padding-left: 10px !important;
+  padding-right: 25px;
+}
+

@@ -1,10 +1,8 @@
 @media(max-width:900px){
-    .imgheader{
-        display: none;
-    }
-    .imgheadermobile{
+    .slidermobile{
         display: block;
-    }
+      }
+
     h1, .h1index{
         margin: 40px;
         margin-top: 130px;
@@ -45,8 +43,11 @@
     
 }
 
-@media(max-width:900px){
-    .imgheadermobile{
-        display: block;
+
+@media(max-width:1000px){
+    .cashandtruck{
+        display: flex;
+        flex-direction: column;
     }
 }
+
