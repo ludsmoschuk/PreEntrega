@@ -45,7 +45,7 @@ footer {
   border-radius: 5px;
 }
 
-.imgmobile {
+.imgmobile > img{
   width: 100% !important; 
 }
 
