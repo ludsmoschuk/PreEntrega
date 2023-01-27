@@ -39,7 +39,7 @@ footer {
 
 .logonav {
   height: 70px;
-  border-radius: 14px;
+  border-radius: 50%;
 }
 
 .navpers{
@@ -116,8 +116,8 @@ footer {
 
 .cats {
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .cat {
@@ -125,13 +125,13 @@ footer {
   position: relative;
 }
 .cat img {
-  width: px;
   border-radius: 15px;
 }
 .cat h2 {
   position: absolute;
   width: 100%;
   bottom: 40%;
+  right: 2px;
   text-align: center;
   color: white;
 }
@@ -277,6 +277,22 @@ form > input, form textarea {
   .pubi{
     display: none;
   }
+  h1{
+    font-size: 24px !important;
+  }
+  .cat {
+    width: 200px;
+  }  
+  .cat h2 {
+    position: absolute;
+    width: 100%;
+    bottom: 40%;
+    right: 1px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+  }
+  
 }
 @media (min-width: 900px) {
   .imgmobile{
@@ -306,6 +322,12 @@ form > input, form textarea {
     flex-direction: column;
     align-items: center;
   }
+}
+
+@media(max-width:415px){
+  .cat {
+    width: 160px;
+
 }
 .body {
   background-color: #F2EDDB;
