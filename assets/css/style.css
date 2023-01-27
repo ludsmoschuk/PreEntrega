@@ -9,9 +9,6 @@
   font-family: Montserrat-Medium;
   src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
 }
-body {
-  background-color: #F2EDDB;
-}
 
 .bodyindex {
   display: grid;
@@ -42,7 +39,11 @@ footer {
 
 .logonav {
   height: 70px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.navpers{
+  background-color: #F2EDDB !important;
 }
 
 .imgmobile > img{
@@ -282,6 +283,9 @@ form > input, form textarea {
     display: none;
   }
   .mapmobile{
+    display: none;
+  }
+  .slidermobile{
     display: none;
   }
 }
