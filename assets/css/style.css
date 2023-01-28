@@ -45,11 +45,9 @@ footer {
 .navpers{
   background-color: #F2EDDB !important;
 }
-
-.imgmobile > img{
-  width: 100% !important; 
-}
-
+ h1{
+  margin-left: 15px;
+ }
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -62,7 +60,6 @@ footer {
 }
 
 .card-info > h2 {
-  text-align: c;
   padding: 8px;
   margin-top: 10px;
   margin-left: 7px;
@@ -127,15 +124,13 @@ footer {
 .cat img {
   border-radius: 15px;
 }
-.cat h2 {
+.cat  h2 {
   position: absolute;
   width: 100%;
   bottom: 40%;
-  right: 2px;
   text-align: center;
   color: white;
 }
-
 .cuidados > ul {
   padding-left: 120px;
   padding-top: 10px;
@@ -172,14 +167,15 @@ form > input, form textarea {
 }
 .mainubi{
   display: flex;
+  flex-wrap: wrap;
 }
 .pubi{
   width: 45%;
+  padding-left: 50px;
 }
 .wpp{
   text-decoration: none;
   color: black;
-  margin-left: 80px;
 }
 .foot {
   background-color: #D8CCBF;
@@ -196,13 +192,14 @@ form > input, form textarea {
 }
 .foot img {
   width: 20px;
-  margin-left: px;
-  margin-right: px;
+  margin-left: 40px;
+  margin-right: 5px;
 }
 
 .redes {
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .redes > a {
   text-decoration: none;
@@ -275,7 +272,8 @@ form > input, form textarea {
     display: none;
   }
   .pubi{
-    display: none;
+    width: 90%;
+    margin-bottom: 45px;
   }
   h1{
     font-size: 24px !important;
@@ -304,6 +302,20 @@ form > input, form textarea {
   .slidermobile{
     display: none;
   }
+  .h1index{
+    padding-top: 50px;
+  }
+  h1{
+    padding-left: 40px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+  }
+  .parrafo{
+    padding-left: 75px;
+  }
+  .form{
+    margin-left: 40px;
+  }
 }
 @media(max-width:1050px){
   .cashandtruck{
@@ -327,7 +339,6 @@ form > input, form textarea {
 @media(max-width:415px){
   .cat {
     width: 160px;
-
 }
 .body {
   background-color: #F2EDDB;
@@ -340,16 +351,11 @@ h1 {
   font-size: 35px;
 }
 
-.h1index {
-  margin-top: 50px;
-}
-
 p {
   padding-left: 80px;
   padding-right: 10px;
   font-size: 15px;
 }
-
 
 .foot{
   background-color: #D8CCBF;
@@ -364,4 +370,5 @@ p {
   padding-left: 10px !important;
   padding-right: 25px;
 }
-
+}
+ 
