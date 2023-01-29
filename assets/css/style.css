@@ -274,7 +274,10 @@ form > input, form textarea {
   .pubi{
     width: 90%;
     margin-bottom: 45px;
-    margin-left: 5px;
+    margin-left: 0px;
+  }
+  .pubi > p{
+    padding-left: 0px;
   }
   .h1index{
     padding-top: 40px;
@@ -407,6 +410,11 @@ p {
 .redes h5{
   padding-left: 10px !important;
   padding-right: 25px;
+}
+.h1index{
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 16px;
 }
 }
  

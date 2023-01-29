@@ -41,13 +41,175 @@
     
     @include buttom(80px,11px )
     
+    form{
+        width: 75%;
+    }
+    .parrafo{
+        margin-left: 10px;
+        padding-left: 45px;
+        padding-right: 25px;
+    }
+    .cuidados > h3{
+        padding-left: 55px;
+    }
+    .cuidados > ul{
+        padding-left: 85px;
+        padding-right: 25px;
+    }
+    .mapmobile{
+        display: block;
+        width: 80%;
+    }
+    .map{
+        display: none;
+    }
+    .pubi{
+        width: 90%;
+        margin-bottom: 45px;
+        margin-left: 0px;
+        > p{
+            padding-left: 0px;
+        }
+    }
+    .h1index{
+        padding-top: 40px;
+    }
+    h1{
+        font-size: 24px !important;
+    }
+    .cat {
+        width: 200px;
+        h2 {
+            position: absolute;
+            width: 100%;
+            bottom: 40%;
+            right: 1px;
+            text-align: center;
+            color: white;
+            font-size: 19px;
+          }
+    }  
 }
 
+@media (min-width: 900px) {
+    .mapmobile{
+      display: none;
+    }
+    .slidermobile{
+      display: none;
+    }
+    .h1index{
+      padding-top: 50px;
+    }
+    h1{
+      padding-left: 40px;
+      padding-top: 120px;
+      padding-bottom: 30px;
+    }
+    .parrafo{
+      padding-left: 75px;
+    }
+    .form{
+      margin-left: 40px;
+    }
+  }
+  
 
-@media(max-width:1000px){
+  @media(max-width:1050px){
     .cashandtruck{
         display: flex;
         flex-direction: column;
+        padding: 20px;
+        align-items: center;
     }
-}
+    form{
+      width: 60%;
+    }
+  }
 
+  @media(max-width:650px){
+    .redes{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      > a {
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+      }
+      > h5 {
+        font-size: 8px;
+      }
+    }
+    .foot {
+        > h3 {
+            padding: 35px;
+            text-align: center;
+            font-size: 20px;
+          }
+          > h4 {
+            padding: 35px;
+            text-align: center;
+            font-size: 16px;
+          }
+          img {
+            width: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+    }
+       
+    
+    .redes {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+      > a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+      }
+    }
+  }
+  
+  @media(max-width:415px){
+    .cat {
+        width: 160px;
+    }
+    .body {
+        background-color: #F2EDDB;
+        width: 100vw;
+    }
+  
+    h1 {
+        margin: 40px;
+        margin-top: 130px;
+        font-size: 35px;
+    }
+  
+    p {
+        padding-left: 80px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+  
+  .foot{
+        background-color: #D8CCBF;
+    }
+  
+  .redes{
+        display: flex;
+        padding-bottom: 45px;
+    }
+  
+  .redes h5{
+        padding-left: 10px !important;
+        padding-right: 25px;
+    }
+  .h1index{
+        margin: 0;
+        padding-left: 20px;
+        padding-bottom: 16px;
+    }
+  }
+  
